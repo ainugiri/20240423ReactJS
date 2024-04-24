@@ -1,5 +1,15 @@
-export default function FirstCompnent(){
+import './FirstComponent.css';
+
+function FirstCompnent(){
     return(
-        <h1>Welcome</h1>
+        <div id='d1'>
+             <ul>
+                <li>Inbox</li>
+                <li>Starred</li>
+                <li>Draft</li>
+                <li>Sent</li>
+             </ul>
+        </div>
     );
 }
+export default FirstCompnent
